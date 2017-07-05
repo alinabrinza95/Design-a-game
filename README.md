@@ -17,14 +17,14 @@ Code of the Scripts above:
 
 CameraRunnerScript.cs
 
-	using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class CameraRunnerScript : MonoBehaviour {
 
     public Transform player;
-	// Update is called once per frame
+	//Update is called once per frame
 	void Update () {
         transform.position = new Vector3(player.position.x + 6, 0, -10);
 	}
@@ -32,7 +32,7 @@ public class CameraRunnerScript : MonoBehaviour {
 
 DestroyerScript.cs
 	
-	using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -59,7 +59,7 @@ public class DestroyerScript : MonoBehaviour {
 
 GameOverScript.cs
 
-	using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -87,7 +87,7 @@ public class GameOverScript : MonoBehaviour
 
 HUDScript.cs
 
-	using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -125,7 +125,7 @@ public class HUDScript : MonoBehaviour {
 
 PowerUpScript.cs
 
-	using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -151,7 +151,7 @@ public class PowerUpScript : MonoBehaviour {
 
 SponScript.cs
 
-	using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
